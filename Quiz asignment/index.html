@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Quiz asignment/index.css">
+    
+</head>
+<body>
+  <div class="main">
+    <div id="user-details">
+        <img src="../Quiz asignment/logo.png" alt="Logo" width="100px" height="100px">
+        <h1>Hello user!</h1>
+        <p>Enter your name to continue the quiz</p>
+        <label for="name"></label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <button id="enter">Enter</button>
+        <br><br>
+        <p>You'll have 10 seconds to answer each questions</p>
+        <br>
+        
+      </div>
+      <hr>
+      <h1 class="middle">Select Category</h1>   
+      
+      <div id="category-section">
+        
+       <button id="pipes-cisterns" onclick="pipequiz()">Pipes and Cisterns</button>
+       <button id="probability" onclick="probquiz()">Probability</button>
+       <button id="problems-on-age" onclick="agequiz()">Problems on Age</button>
+       <button id="profit-loss" onclick="prolosquiz()">Profit and Loss</button>
+  </div>
+
+  <div id="category">
+
+    <div class="time" id="header">
+        <div id="timer">60 Seconds</div>
+
+        <div id="score">Score : 0 </div>
+
+    </div>
+
+
+    <br>
+
+    <div class="container">
+
+        <div class="col">
+            <h3 id="questionBox">
+                1) Basic Format of the Multiple Type Questions ?
+            </h3>
+        </div>
+        <div class="answer">
+            <div class="col box">
+                <input name="option" type="radio" id="first" value="a" required>
+                <label for="first">Option 1</label>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="second" value="b" required>
+                <label for="second">Option 2</label>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="third" value="c" required>
+                <label for="third">Option 3</label>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="fourth" value="d" required>
+                <label for="fourth">Option 4</label>
+            </div>
+        </div>
+        <button id="submit" class="btn btn-success">Next Question</button>
+
+    </div>
+
+
+</div>
+<!-- Quiz Page End -->
+
+
+
+
+
+
+
+<!-- Restart or End Quiz Area Start -->
+<div id="bottom">
+
+    <button id="restart" ><a href="">Restart</a></button>
+
+
+    <button id="end" onclick="shut_down()">End Quiz</button>
+</div>
+<!-- Restart or End Quiz Area Finish -->
+
+            
+      <script src="../Quiz asignment/index.js"></script>
+</body>
+</html>

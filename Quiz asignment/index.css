@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    text-align: center;
+}
+
+.main{
+    margin: 50px auto;
+    width: 520px;
+    height: 530px;
+    border-radius: 10px;
+    border: 2px solid rgb(230, 211, 211);
+    box-shadow: 10px;
+    
+     
+}
+
+#user-details{
+    margin-top: 15px;
+}
+
+#enter{
+    width: 50px;
+    height: 25px;
+    border-radius: 3px;
+    background-color: rgb(163, 233, 233);
+    border: 2px solid turquoise;
+}
+
+h1{
+    color:rgb(68, 196, 189);
+    
+}
+
+p{
+    margin: 2px;
+}
+
+input{
+    width: 80%;
+    height:25px;
+    padding: 5px;
+}
+
+.middle{
+    margin: 10px;
+}
+
+#pipes-cisterns{
+    margin-left:0px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(194, 248, 243);
+    border: 2px solid turquoise;
+}
+
+#probability{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(194, 248, 243);
+    border: 2px solid turquoise;
+}
+
+#problems-on-age{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color:rgb(194, 248, 243);
+    border: 2px solid turquoise;
+}
+
+#profit-loss{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color:rgb(194, 248, 243);
+    border: 2px solid turquoise;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
